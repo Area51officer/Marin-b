@@ -34,7 +34,7 @@ let tags = {
 const defaultMenu = {
   before: `
 
-💖 Yo %name,Im Sajuna✨. How can i help you?
+Yo %name,Im Marin♥️. How can i help you?
 
 🌼 Left: *%limit Limit*
 🌸 Role: *%role*
