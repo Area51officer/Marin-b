@@ -1,10 +1,10 @@
-# tokio
+# Marin♥️
 
-English version of wabot-aq
+English version of wabot-aq ( Thanks to Ajay/Tokio )
 
 Don't forget to give it a star  🌟
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/itsajaygaur/tokio-wabot)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Vambo-M/Marin-bot)
 
 ## FOR TERMUX/UBUNTU/SSH USER
 
@@ -14,8 +14,8 @@ apt install git -y
 apt install nodejs -y
 apt install ffmpeg -y
 apt install imagemagick -y
-git clone https://github.com/itsajaygaur/tokio-wabot
-cd tokio-wabot
+git clone https://github.com/Vambo-M/Marin-bot
+cd Marin-bot
 npm install
 npm update
 ```
@@ -49,8 +49,8 @@ apt install wget curl git ffmpeg imagemagick build-essential libcairo2-dev libpa
 ubuntu
 curl -fsSL https://deb.nodesource.com/setup_current.x | sudo -E bash -
 apt install -y nodejs gcc g++ make
-git clone https://github.com/itsajaygaur/tokio-wabot
-cd tokio-wabot
+git clone https://github.com/Vambo-M/Marin-bot
+cd Marin-bot
 npm install
 npm update
 ```
@@ -65,8 +65,8 @@ npm update
 * Download And Install ImageMagick [`Click Here`](https://imagemagick.org/script/download.php)
 
 ```bash
-git clone https://github.com/itsajaygaur/tokio-wabot
-cd tokio-wabot
+git clone https://github.com/Vambo-M/Marin-bot
+cd Marin-bot
 npm install
 npm update
 ```
@@ -168,7 +168,7 @@ Author / Creator | Editor
 
 Don't forget to give it a star 🌟
 
-Best regards: tokio
+Best regards: Marin<3
 
 
 
