@@ -160,6 +160,14 @@ conn.logger.level = 'debug'
 
 -------
 
+-------
+
+[![Nurutomo](https://github.com/Nurutomo.png?size=100)](https://github.com/Nurutomo) | [![Vambo](https://github.com/Vambo-M.png?size=100)](https://github.com/itsajaygaur/tokio-wabot) 
+----|----
+[Nurutomo](https://github.com/Nurutomo) | [Vambo](https://github.com/itsajaygaur/tokio-wabot) 
+Author / Creator | Editor
+ 
+
 
 
 Don't forget to give it a star 🌟
