@@ -160,8 +160,7 @@ conn.logger.level = 'debug'
 
 -------
 
-[![𝑉𝑎𝑚𝑏𝑜](https://github.com/Vambo-M.png?size=100)](https://github.com/itsajaygaur/tokio-wabot) 
-----|----
+[![𝑉𝑎𝑚𝑏𝑜](https://github.com/Vambo-M.png?size=100)](https://github.com/itsajaygaur/tokio-wabot) |
  [𝑉𝑎𝑚𝑏𝑜](https://github.com/Vambo-M/Marin-bot) 
  Editor
  
