@@ -162,7 +162,7 @@ conn.logger.level = 'debug'
 
 [![Nurutomo](https://github.com/Nurutomo.png?size=100)](https://github.com/Nurutomo) | [![𝑉𝑎𝑚𝑏𝑜](https://github.com/Vambo-M.png?size=100)](https://github.com/Vambo-M/Marin-bot) 
 ----|----
-[Nurutomo](https://github.com/Nurutomo) | [𝑉𝑎𝑚𝑏𝑜](https://github.com/Vambo-M/Marin-bot) 
+[Nurutomo](https://github.com/Nurutomo) | [𝑉𝑎𝑚𝑏𝑜](https://github.com/Vambo-M) 
 Author / Creator | Editor
  
 
