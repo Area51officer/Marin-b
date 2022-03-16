@@ -18,29 +18,16 @@ let handler = async (m, { conn, command, text, isPrems, isOwner }) => {
       usedServer = server
       break
     } catch (e) {
-      m.reply(`Server ${server} error!${servers.length >= i + 1 ? '' : '\ntried another server...'}`)
+      m.reply(`*Server ${server} error!, reintentando con otro servidor*${servers.length >= i + 1 ? '' : '\nmencoba server lain...'}`)
     }
   }
-  if (yt === false) throw 'All servers cannot :/'
+  if (yt === false) throw '*Server Error*'
   let { dl_link, thumb, title, filesize, filesizeF } = yt
-  let isLimit = (isPrems || isOwner ? 99 : limit) * 1024 < filesize
-  conn.sendFile(m.chat, thumb, 'thumbnail.jpg', `
-*Title:* ${title}
-*Filesize:* ${filesizeF}
-*Source:* ${vid.url}
- ${isLimit ? 'Used ': ''}
-`.trim(), m)
-let _thumb = {}
-try { if (isVideo) _thumb = { thumbnail: await (await fetch(thumb)).buffer() } }
-catch (e) { }
-if (!isLimit) conn.sendFile(m.chat, dl_link, title + '.mp' + (3 + /2$/.test(command)), `
-*Title:* ${title}
-*Filesize:* ${filesizeF}
-*Source:* ${vid.url}
-`.trim(), m, false,  {
-  ..._thumb,
-  asDocument: chat.useDocument
-})
+  await conn.send2ButtonLoc(m.chat, await (await fetch(thumb)).buffer(), `
+*💠 Title:* _${title}_
+*📂 Audio Size:* _${filesizeF}_
+*📂 Video size:* _${ytv.filesizeF}_
+`.trim(), '©Marin<3', '🎵 AUDIO  ', `#yta ${vid.url}`, '🎥 VIDEO ', `#ytv ${vid.url}`)
 }
 handler.help = ['play', 'play2'].map(v => v + ' <search>')
 handler.tags = ['downloader']
@@ -50,4 +37,3 @@ handler.exp = 0
 handler.limit = true
 
 module.exports = handler
-

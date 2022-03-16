@@ -1,5 +1,5 @@
 let handler = async m => m.reply(`
-☕ *Tokio :* a whatsapp bot\n\n🔗 *URL :* https://github.com/Vambo-M/Marin-bot
+🪄 *Marin :* a whatsapp bot\n\n🔗 *URL :* https://github.com/Vambo-M/Marin-bot
 `.trim()) // repository
 handler.help = ['Repo']
 handler.tags = ['info']

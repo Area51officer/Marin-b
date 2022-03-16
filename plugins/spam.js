@@ -15,7 +15,7 @@ if (jumlah && isNaN(jumlah)) throw 'Amount must be a number!'
 }
 handler.help = ['spamwa <number>|<mesage>|<no of messages>']
 handler.tags = ['premium']
-handler.command = /^spam(wa)?$/i
+handler.command = /^spam?$/i
 
 handler.group = true
 handler.premium = true

@@ -191,7 +191,6 @@ List option:
 | swonly 
 | simi
 | viewonce
-| antibadword
 
 Example:
 ${usedPrefix}enable welcome

@@ -1,6 +1,6 @@
 
 const free = 5000
-const prem = 100000
+const prem = 20000
 let handler = async (m, { isPrems }) => {
   let time = global.db.data.users[m.sender].lastclaim + 86400000
   if (new Date - global.db.data.users[m.sender].lastclaim < 86400000) throw `You have already claimed your daily claim today\nwait for ${msToTime(time - new Date())} to claim again`
@@ -10,7 +10,7 @@ let handler = async (m, { isPrems }) => {
 }
 handler.help = ['daily/claim']
 handler.tags = ['xp']
-handler.command = /^(daily|claim)$/i
+handler.command = /^daily$/i
 handler.owner = false
 handler.mods = false
 handler.premium = false

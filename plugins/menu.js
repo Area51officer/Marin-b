@@ -18,6 +18,7 @@ let tags = {
   'downloader': 'DOWNLOADER',
   'tools': 'TOOLS',
   'fun': 'FUN',
+  'voice' : 'VOICE',
   'audio': 'AUDIO',
   'maker': 'MAKER',
   'videomaker': 'VIDEOMAKER',
@@ -34,7 +35,7 @@ let tags = {
 const defaultMenu = {
   before: `
 
-Yo %name,Im Marin♥️. How can i help you?
+Heyo %name,Im Marin♥️. How can i help you?
 
 🌼 Left: *%limit Limit*
 🌸 Role: *%role*
@@ -47,10 +48,10 @@ Yo %name,Im Marin♥️. How can i help you?
 ↓ All usable commands are listed below ↓
 
 %readmore`.trimStart(),
-  header: '        *🌟━━❰･%category･❱━━🌟*',
-  body: ' ⭐ %cmd %islimit %isPremium',
+  header: '        *💠━━❰･%category･❱━━💠*',
+  body: ' 🔰 %cmd %islimit %isPremium',
   footer: ' ',
-  after: `🌟 *Hope you're enjoying bot, have a great day* 
+  after: `💠 *Hope you're enjoying bot, have a great day* 
 `,
 }
 let handler = async (m, { conn, usedPrefix: _p }) => {

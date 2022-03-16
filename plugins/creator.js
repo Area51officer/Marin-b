@@ -6,6 +6,6 @@ function handler(m) {
 handler.help = ['owner/creator']
 handler.tags = ['info']
 
-handler.command = /^(owner|creator)$/i
+handler.command = /^(owner|creator|darling)$/i
 
 module.exports = handler

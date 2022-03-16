@@ -15,7 +15,7 @@ Not enough *${max - user.exp}* again!
             m.reply(`
 🎊 Congratulations, you have leveled up!
 *${before}* -> *${user.level}*
-use *.profile* to check
+use *#profile* to check
 	`.trim())
         }
 }
