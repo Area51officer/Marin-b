@@ -160,14 +160,16 @@ conn.logger.level = 'debug'
 
 -------
 
-[![𝑉𝑎𝑚𝑏𝑜](https://github.com/Vambo-M.png?size=100)](https://github.com/itsajaygaur/tokio-wabot) |
- [𝑉𝑎𝑚𝑏𝑜](https://github.com/Vambo-M/Marin-bot) 
- Editor
+[![Nurutomo](https://github.com/Nurutomo.png?size=100)](https://github.com/Nurutomo) | [![𝑉𝑎𝑚𝑏𝑜](https://github.com/Vambo-M.png?size=100)](https://github.com/Vambo-M/Marin-bot) 
+----|----
+[Nurutomo](https://github.com/Nurutomo) | [𝑉𝑎𝑚𝑏𝑜](https://github.com/Vambo-M/Marin-bot) 
+Author / Creator | Editor
  
 
 
 
 Don't forget to give it a star 🌟
+
 
 Best regards: Marin<3
 
