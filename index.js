@@ -9,10 +9,10 @@ CFonts.say('Marin\nWhatsApp Bot', {
   align: 'left',
   gradient: ['red', 'green']
 })
-CFonts.say(`'${package.name}' By @${package.author.name || package.author}`, {
+CFonts.say(`'Marin Kitagawa' By @Vambo`, {
   font: 'console',
   align: 'center',
-  gradient: ['red', 'magenta']
+  gradient: ['red', 'blue']
 })
 
 var isRunning = false
