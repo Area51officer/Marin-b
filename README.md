@@ -45,7 +45,7 @@ apt install wget curl git ffmpeg imagemagick build-essential libcairo2-dev libpa
 
 ---------
 
-[ INSTALLING NODEJS & TOKIO-WABOT ]
+[ INSTALLING NODEJS & MARIN-BOT ]
 
 ```bash
 ubuntu
