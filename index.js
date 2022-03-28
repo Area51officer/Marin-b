@@ -1,18 +1,18 @@
-console.log('Starting^_^')
+console.log('Starting...')
 let { spawn } = require('child_process')
 let path = require('path')
 let fs = require('fs')
 let package = require('./package.json')
 const CFonts  = require('cfonts')
-CFonts.say('Marin\nWhatsApp Bot', {
+CFonts.say('MARIN\nWhatsApp Bot', {
   font: 'chrome',
   align: 'left',
-  gradient: ['red', 'green']
+  gradient: ['red', 'blue']
 })
-CFonts.say(`'Marin Kitagawa' By @Vambo`, {
+CFonts.say(`'Marib Kitagawa' By @VambO`, {
   font: 'console',
   align: 'center',
-  gradient: ['red', 'blue']
+  gradient: ['red', 'green']
 })
 
 var isRunning = false

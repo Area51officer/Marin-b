@@ -10,7 +10,7 @@ handler.before = function (m) {
           : ((user.level >= 50) && (user.level <= 60)) ? 'Crown'
           : ((user.level >= 60) && (user.level <= 70)) ? 'Ace'
           : ((user.level >= 70) && (user.level <= 100)) ? 'Conqueror'
-          : 'Legend'
+          : 'God'
   user.role = role
   return true
 }

@@ -20,3 +20,4 @@ handler.before = async (m, { conn }) => {
 }
 
 module.exports = handler
+

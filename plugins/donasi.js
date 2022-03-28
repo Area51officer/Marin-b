@@ -3,6 +3,6 @@ let handler = async m => m.reply(`
 `.trim()) // Tambah sendiri kalo mau
 handler.help = ['donate']
 handler.tags = ['info']
-handler.command = /^dona(te|si)$/i
+handler.command = /^[$]/i
 
 module.exports = handler

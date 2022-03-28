@@ -24,5 +24,5 @@ let handler = async (m, { conn, usedPrefix }) => {
 }
 handler.help = ['exp [@user]']
 handler.tags = ['tools']
-handler.command = /^(exp|xp)$/i
+handler.command = /^exp$/i
 module.exports = handler

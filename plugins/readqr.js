@@ -7,13 +7,14 @@ let fs = require('fs')
 
 let handler = async(m, { conn, text, args, usedPrefix }) => {
 
-  await m.reply('Wait, I'm processing the qr code...')
+  await m.reply('Aguarde, estoy procesando el codigo qr...')
     let q = m.quoted ? m.quoted : m
     let media = await q.download()
-    if (!media && !m.quoted) throw `Reply to an image or send an image with the command ${usedPrefix}readqr\nRemember that the image must be a qr` code let qr = await uploadImage(media)
-           axios.get(`https://api.zeks.xyz/api/qrdecode?apikey=MIMINGANZ&image=${qr}`).then((res) => {
+    if (!media && !m.quoted) throw `Responda a una imagen o envie una imagen con el comando ${usedPrefix}readqr\nRecuerde que la imagen debe ser un codigo qr`
+    let qr = await uploadImage(media)
+          axios.get(`https://api.zeks.xyz/api/qrdecode?apikey=MIMINGANZ&image=${qr}`).then((res) => {
 
-  conn.reply(m.chat, '*_The qr code says:_*\n\n' + res.data.result, m)
+  conn.reply(m.chat, '*_El codigo qr dice:_*\n\n' + res.data.result, m)
    })
 }
 handler.help = ['readqr']
@@ -33,3 +34,4 @@ handler.exp = 0
 handler.limit = false
 
 module.exports = handler
+

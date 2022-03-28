@@ -30,6 +30,15 @@ let handler = async (m, { conn, usedPrefix, command, args, isOwner, isAdmin, isR
       }
       chat.detect = isEnable
       break
+    case 'antilink2':
+      if (m.isGroup) {
+        if (!(isAdmin || isOwner)) {
+          global.dfail('admin', m, conn)
+          throw false
+        }
+      }
+      chat.antiLink2 = isEnable
+      break
     case 'delete':
       if (m.isGroup) {
         if (!(isAdmin || isOwner)) {
@@ -178,6 +187,7 @@ List option:
 | welcome 
 | delete 
 | public 
+| antispam
 | antilink 
 | autolevelup 
 | detect 

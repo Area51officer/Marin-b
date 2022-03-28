@@ -56,34 +56,6 @@ module.exports = {
           role: 'Beginner',
           autolevelup: false,
         }
-
-        let chat = global.db.data.chats[m.chat]
-        if (typeof chat !== 'object') global.db.data.chats[m.chat] = {}
-        if (chat) {
-          if (!('isBanned' in chat)) chat.isBanned = false
-          if (!('welcome' in chat)) chat.welcome = false
-          if (!('detect' in chat)) chat.detect = false
-          if (!('sWelcome' in chat)) chat.sWelcome = ''
-          if (!('sBye' in chat)) chat.sBye = ''
-          if (!('sPromote' in chat)) chat.sPromote = ''
-          if (!('sDemote' in chat)) chat.sDemote = ''
-          if (!('delete' in chat)) chat.delete = true
-          if (!('antiLink' in chat)) chat.antiLink = false
-          if (!('simi' in chat)) chat.simi = false
-          if (!('viewonce' in chat)) chat.viewonce = false
-        } else global.db.data.chats[m.chat] = {
-          isBanned: false,
-          welcome: false,
-          detect: false,
-          sWelcome: '',
-          sBye: '',
-          sPromote: '',
-          sDemote: '',
-          delete: true,
-          antiLink: false,
-          simi: false,
-          viewonce: false,
-        }
       } catch (e) {
         console.error(e)
       }
